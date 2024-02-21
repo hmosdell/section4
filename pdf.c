@@ -21,7 +21,7 @@ int main(int argc, string argv[])
     uint8_t signature[] = {0x25, 0x50, 0x44, 0x46};
 
     // Read first 4 bytes from file, then close.
-    //TODO
+    // TODO
 
     // Check if read operation was successful
     if (ferror(pdf))
